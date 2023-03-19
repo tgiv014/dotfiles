@@ -1,0 +1,44 @@
+configuration {
+/*	modi: "window,run,ssh";*/
+font: "Berkeley Mono 12";
+/*	fixed-num-lines: true;*/
+show-icons: true;
+/*	show-icons: false;*/
+terminal: "kitty";
+/*	drun-match-fields: "name,generic,exec,categories,keywords";*/
+/*	drun-categories: ;*/
+/*	drun-show-actions: false;*/
+/*	drun-display-format: "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
+/*	drun-url-launcher: "xdg-open";*/
+/*	sidebar-mode: false;*/
+hover-select: true;
+/*	hover-select: false;*/
+/*	eh: 1;*/
+/*	auto-select: false;*/
+/*	parse-hosts: false;*/
+/*	parse-known-hosts: true;*/
+/*	combi-modi: "window,run";*/
+/*	matching: "normal";*/
+/*	tokenize: true;*/
+/*	m: "-5";*/
+/*	filter: ;*/
+/*	dpi: -1;*/
+/*	threads: 0;*/
+/*	scroll-method: 0;*/
+/*	window-format: "{w}    {c}   {t}";*/
+/*	click-to-exit: true;*/
+/*	theme: ;*/
+/*	max-history-size: 25;*/
+/*	combi-hide-mode-prefix: false;*/
+/*	matching-negate-char: '-' /* unsupported */;*/
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
+
+@theme "gruvbox-dark-soft"
